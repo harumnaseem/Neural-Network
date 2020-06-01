@@ -1,6 +1,6 @@
 # Neural-Network
 
-Implementaion of a simple Neural Network for predicting the handwritten digits. 
+Implementation of a simple Neural Network for predicting the handwritten digits. 
 
 There is a dataset of handwritten digits. The txt files folder contains four files; train.txt, test.txt, train-labels.txt and test-labels.txt. The dataset consists of 70,000 labeled 28x28 pixel grayscale images of hand-written digits. The dataset is split into 60,000 training images and 10,000 test images. There are 10 classes (one for each of the 10 digits). The task at hand is to train a model using the 60,000 training images and subsequently test its classification accuracy on the 10,000 test images.
 The first file, train.txt, has 60,000 training samples and the second, test.txt, has 10,000 samples for you to test your code on whereas both the train-labels.txt and test-labels.txt, contains the labels for each of the images corresponding to each row of the train.txt and test.txt respectively. Each sample is a handwritten digit represented by a 28 by 28 grayscale pixel image and is a feature vector of length 784 (the input layer of the neural net contains 784 = 28 × 28 neurons). Each pixel is a value between 0 and 255, where 0 indicates white. The value of a label is the digit it represents. For instance, a label of value 8 means the sample represents the digit 8.
